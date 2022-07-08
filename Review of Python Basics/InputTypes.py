@@ -6,3 +6,4 @@ y = int(input())
 # Eval - A function that takes string as a number and returns the numeric result
 
 x = eval('3*3')
+print(x)

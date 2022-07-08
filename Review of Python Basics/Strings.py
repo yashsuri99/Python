@@ -42,6 +42,8 @@ z = var[1:8:1]
 x = var[1:8:2]
 y = var[1:8]
 
+print(z,'/n',x,'/n',y)
+
 ## Other built in string methods are-:
 # isalpha()
 # isdigit()

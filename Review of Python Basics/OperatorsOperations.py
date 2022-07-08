@@ -39,13 +39,14 @@ x >= y
 
 not(x>y)
 (x>3 and y<3)
-(x>3 and y<3)
+(x>3 or y<3)
 
 ## Memebereship - Check wether particaular character exist in string or not
 
 x = 'Krish'
 'k' in x
 'y' not in x
+'K' in x
 
 ## Identity - Compare to check if both the operads are same objects
 
@@ -53,5 +54,5 @@ p = 100
 q = p 
 z = 100
 
-p is q
-p is not z
+print(p is q)
+print(p is z)

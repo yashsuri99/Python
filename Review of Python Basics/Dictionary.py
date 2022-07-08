@@ -12,7 +12,11 @@ for key,value in dict.items():
 
 # Updating Elements
 
-dict[4] = 'Compuer Science'
+dict[4] = 'Computer Science'
+dict[5] = 'English'
+
+for key,value in dict.items():
+    print(key,value)
 
 # Dictionary function are 
 # items()

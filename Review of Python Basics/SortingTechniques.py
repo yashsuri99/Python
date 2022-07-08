@@ -2,12 +2,15 @@
 
 x = [3,2,4,1]
 
-for i in range(len(x)):
-    for j in range(len()-i):
+for i in range(len(x)-1):
+    for j in range(len(x)-i-1):
         if(x[j]>x[j+1]):
             x[j],x[j+1] = x[j+1],x[j]
 
+print(x)
 # Insertion Sort
+
+x = [2,3,2,3,5]
 
 for i in x:
     j = x.index(i)
@@ -17,3 +20,5 @@ for i in x:
         else:
             break
         j = j-1
+
+print(x)
